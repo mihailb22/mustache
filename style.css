@@ -1,0 +1,33 @@
+body {
+    background-size: cover;
+}
+
+h1 {
+    font-size: 25px !important;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    font-size: 17px;
+}
+
+button:hover {
+    background-color: white !important;
+    color: blueviolet !important;
+}
+
+canvas {
+    background-color: white;
+    border-style: ridge;
+    animation: example 4s infinite;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 1px 1px 38px red;
+    }
+    to {
+        box-shadow: 1px 1px 38px yellow;
+    }
+}
